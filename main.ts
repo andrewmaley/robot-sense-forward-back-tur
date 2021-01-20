@@ -39,14 +39,9 @@ function for_right_turn () {
     pins.analogWritePin(AnalogPin.P16, 1023)
 }
 basic.forever(function () {
-    if (pins.analogReadPin(AnalogPin.P10) < 10) {
-        basic.showIcon(IconNames.Sword)
-        backwards()
-        basic.pause(500)
-        backwards_right()
-        basic.pause(200)
+    if (true) {
+    	
     } else {
-        forward()
-        basic.showIcon(IconNames.House)
+    	
     }
 })
